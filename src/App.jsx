@@ -1,3 +1,4 @@
+import './index.css' ;
 import { useState } from "react"
 
 
@@ -22,9 +23,9 @@ function App() {
 
   return (
     <>
-   <h2>Counter Value : {counter} </h2>
+   <h2 className="font-bold">Counter Value : {counter} </h2>
 
-   <button onClick={IncrementValue}>INCREMENT</button> <br /> <br />
+   <button onClick={IncrementValue}>INCREMENT</button> <br />
    <button onClick={DecrementValue}>DECREMENT</button>
     </>
   )
